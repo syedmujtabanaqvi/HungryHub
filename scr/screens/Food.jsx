@@ -1,14 +1,20 @@
 import React from 'react';
-import { View, Text, StyleSheet,ImageBackground ,Image ,FlatList, ScrollView} from 'react-native';
+import { View, Text, StyleSheet,ImageBackground ,Image ,FlatList, ScrollView, TouchableOpacity} from 'react-native';
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { NavigationContainer } from "@react-navigation/native";
+const Stack = createNativeStackNavigator();
 
+const Food = ({ navigation }) => {
 
-const Food = () => {
+  const handleBack = () => {
+    navigation.goBack();
+  };
   return (
     <ScrollView style={styles.container}>
-           <Image 
+           <TouchableOpacity onPress={handleBack}><Image 
   style={{ height: 30, width: 30, marginTop:30, marginLeft:20}} 
   source={{ uri: 'https://uxwing.com/wp-content/themes/uxwing/download/arrow-direction/back-arrow-icon.png' }} 
-/>
+/></TouchableOpacity>
           <Image 
   style={{ height: 30, width: 30, marginTop:-28, marginLeft:330}} 
   source={{ uri: 'https://www.iconpacks.net/icons/1/free-search-icon-337-thumb.png' }} 
@@ -56,8 +62,14 @@ const Food = () => {
 <Text style={styles.text11}>4.5</Text>
 <Text style={styles.text12}>A soft toasted bun filled with a juicy beef patty, topped with melted cheese, fresh lettuce, tomato, and a touch of creamy sauce — a perfect balance of flavor in every bite</Text>
 <Text style={styles.text15}>Toppings</Text>
-<View style={styles.box1}></View>
-<View style={styles.box2}></View>
+<View style={styles.box1}>      <Image  
+  style={{ height: 60, width: 60 ,marginLeft:14,marginTop:16}} 
+  source={{ uri: 'https://freesvg.org/img/Onion.png' }} 
+></Image></View>
+<View style={styles.box2}><Image  
+  style={{ height: 60, width: 60 ,marginLeft:14,marginTop:16}} 
+  source={{ uri: 'https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA3L3dvcmxkZmFjZXNsYWJfcGhvdG9fb2ZfYV9jaGVkZGFyX3RvcF92aWV3X2lzb2xhdGVkX29uX3doaXRlX2JhY184Y2Y2ZDFjZi1mNDY4LTQ3ZTAtYWRhMC1mYjY5ODEzN2E5ZWYucG5n.png' }} 
+></Image></View>
 <View style={styles.box3}></View>
 <View style={styles.box4}></View>
 
@@ -186,7 +198,7 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     borderRadius:20,
-    backgroundColor: "tomato",
+    backgroundColor: "#ddddddff",
     elevation: 20,
   },
    box2: {
@@ -194,7 +206,7 @@ const styles = StyleSheet.create({
     marginLeft:10,
     width: 90,
     height: 90,
-    backgroundColor: "#000",
+    backgroundColor: "#ddddddff",
     borderRadius:20,
     elevation: 20,
 
@@ -205,7 +217,7 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     borderRadius:20,
-    backgroundColor: "#00ff15ff",
+    backgroundColor: "#ddddddff",
     elevation: 20,
   },
    box4: {
@@ -214,7 +226,7 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     borderRadius:20,
-    backgroundColor: "red",
+    backgroundColor: "#ddddddff",
     elevation: 20,
   },
 });
