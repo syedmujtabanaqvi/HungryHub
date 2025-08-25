@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
     fontFamily:'sans-serif-condensed',
     marginTop:-176,
     marginLeft:190
+    
   },
    text3two: {
     color: "white",
