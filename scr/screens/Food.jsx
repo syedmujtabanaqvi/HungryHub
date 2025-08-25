@@ -55,7 +55,7 @@ const Food = () => {
 ></Image>
 <Text style={styles.text11}>4.5</Text>
 <Text style={styles.text12}>A soft toasted bun filled with a juicy beef patty, topped with melted cheese, fresh lettuce, tomato, and a touch of creamy sauce — a perfect balance of flavor in every bite</Text>
-
+<Text style={styles.text15}>Toppings</Text>
 <View style={styles.box1}></View>
 <View style={styles.box2}></View>
 <View style={styles.box3}></View>
@@ -172,41 +172,50 @@ const styles = StyleSheet.create({
     fontWeight:'600'
     ,marginBottom:-15
   },
+  text15: {
+    marginTop:-6,
+    marginLeft:10,
+    fontSize: 28,
+    color: '#030303ff',
+    fontWeight:'600'
+    ,marginBottom:-15
+  },
    box1: {
     marginTop:30,
-    marginLeft:-137,
+    marginLeft:210,
     width: 90,
     height: 90,
-    backgroundColor: "white",
     borderRadius:20,
     backgroundColor: "tomato",
+    elevation: 20,
   },
    box2: {
     marginTop:-90,
-    marginLeft:30,
+    marginLeft:10,
     width: 90,
     height: 90,
-    backgroundColor: "white",
+    backgroundColor: "#000",
     borderRadius:20,
     elevation: 20,
 
   },
    box3: {
     marginTop:-90,
-    marginLeft:80,
+    marginLeft:110,
     width: 90,
     height: 90,
-    backgroundColor: "white",
     borderRadius:20,
-    backgroundColor: "tomato",
+    backgroundColor: "#00ff15ff",
+    elevation: 20,
   },
    box4: {
-    marginTop:-14,
-    marginLeft:180,
+    marginTop:-90,
+    marginLeft:310,
     width: 90,
     height: 90,
     borderRadius:20,
-    backgroundColor: "tomato",
+    backgroundColor: "red",
+    elevation: 20,
   },
 });
 
