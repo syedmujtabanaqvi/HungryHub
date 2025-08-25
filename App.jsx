@@ -6,6 +6,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import Home from "./scr/screens/Home";   
 import Food from "./scr/screens/Food";
+import Login from "./scr/screens/Login";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -17,6 +18,8 @@ function TabNavigator() {
               style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Home" component={Home} />
       <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/468/468209.png' }}
               style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Food" component={Food} />
+               <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/468/468209.png' }}
+              style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Login" component={Login} />
     </Tab.Navigator>
   );
 }
