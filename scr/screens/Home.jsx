@@ -21,7 +21,8 @@ const Home = () => {
       />
         <Text style={styles.text1}>
           SUMMER 
-          </Text> <Text style={styles.text1two}>
+          </Text>
+           <Text style={styles.text1two}>
           
           COMBO</Text>
          
