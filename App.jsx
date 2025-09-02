@@ -18,8 +18,8 @@ function TabNavigator() {
               style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Home" component={Home} />
       <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/468/468209.png' }}
               style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Food" component={Food} />
-               <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/468/468209.png' }}
-              style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Login" component={Login} />
+               <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg' }}
+              style={{ width: 25, height: 25 }}/>) }} name="Login" component={Login} />
     </Tab.Navigator>
   );
 }
