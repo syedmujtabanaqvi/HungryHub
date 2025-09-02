@@ -7,7 +7,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from "./scr/screens/Home";   
 import Food from "./scr/screens/Food";
 import Login from "./scr/screens/Login";
-
+import Search from "./scr/screens/Search";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
@@ -16,10 +16,14 @@ function TabNavigator() {
     <Tab.Navigator>
       <Tab.Screen options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/25/25694.png' }}
               style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Home" component={Home} />
+      <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://static.vecteezy.com/system/resources/thumbnails/009/652/218/small_2x/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg' }}
+              style={{ width: 25, height: 25 }}/>) }} name="Search" component={Search} />
       <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://cdn-icons-png.flaticon.com/512/468/468209.png' }}
               style={{ width: 25, height: 25, tintColor: 'black' }}/>) }} name="Food" component={Food} />
+             
                <Tab.Screen  options={{ headerShown: false , tabBarIcon:()=>(<Image source={{ uri: 'https://static.vecteezy.com/system/resources/thumbnails/007/033/146/small/profile-icon-login-head-icon-vector.jpg' }}
               style={{ width: 25, height: 25 }}/>) }} name="Login" component={Login} />
+          
     </Tab.Navigator>
   );
 }

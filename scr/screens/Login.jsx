@@ -40,7 +40,9 @@ setsubmitText(Email)
 
 </TouchableOpacity>
 
-      {submitText? (<Text>Result :{Email}</Text>):null}
+      {submitText? (<Text>Result :{}</Text>):null}
+<Text style={{marginLeft:110,marginTop:30}}>Don't Have an account </Text>
+<TouchableOpacity style={{alignContent:'center',alignItems:'center', marginLeft:170,marginTop:-18}}><Text style={{color:'#ffbb00ff'}}>Sign Up</Text></TouchableOpacity>
     </View>
   );
 };

@@ -19,12 +19,7 @@ const Home = () => {
         style={{ marginLeft:150,boxSizing:20, height: 150, width: 200  ,marginTop:40}} 
         source={{ uri: 'https://static.vecteezy.com/system/resources/previews/022/911/694/non_2x/cute-cartoon-burger-icon-free-png.png' }} 
       />
-        <Text style={styles.text1}>
-          SUMMER 
-          </Text>
-           <Text style={styles.text1two}>
-          
-          COMBO</Text>
+        <Text style={styles.text1}>SUMMER </Text><Text style={styles.text1two}>COMBO</Text>
          
       </Pressable>
       <Pressable style={styles.button2} >
@@ -33,17 +28,10 @@ const Home = () => {
         source={{ uri: 'https://static.vecteezy.com/system/resources/previews/027/144/908/non_2x/delicious-hawaiian-burger-isolated-on-transparent-background-free-png.png' }} 
       />
       <Text style={styles.text2}>
-          BURGER
-          </Text> <Text style={styles.text2two}>
-          
-          BASH</Text>
+BURGER</Text> <Text style={styles.text2two}>BASH</Text>
       </Pressable>
       <Pressable style={styles.button3} >
-        <Text style={styles.text4}>
-          PIZZA
-          </Text> <Text style={styles.text4two}>
-          
-          PARTY</Text>
+        <Text style={styles.text4}>PIZZA</Text> <Text style={styles.text4two}>PARTY</Text>
               <Image 
         style={{ marginLeft:150,height: 100, width: 200  ,marginTop:-50}} 
         source={{ uri: 'https://static.vecteezy.com/system/resources/thumbnails/045/383/391/small_2x/a-cheesy-delicious-pizza-with-tasty-pepperoni-on-a-transparent-background-png.png' }} 
@@ -54,11 +42,7 @@ const Home = () => {
         style={{ marginLeft:8, height: 167, width: 200  ,marginTop:20}} 
         source={{ uri: 'https://www.pngplay.com/wp-content/uploads/9/Breakfast-Burrito-PNG-Photos.png' }} 
       />
-        <Text style={styles.text3}>
-          BURRITO
-          </Text> <Text style={styles.text3two}>
-          
-          DELIGHT</Text>
+        <Text style={styles.text3}>BURRITO</Text> <Text style={styles.text3two}>DELIGHT</Text>
       </Pressable>
     </ScrollView>
     </View>
