@@ -25,8 +25,8 @@ const Food = ({ navigation }) => {
        <Image  
   style={{ height: 267, width: 320,marginLeft:200,marginTop:-60}} 
   source={{ uri: 'https://static.vecteezy.com/system/resources/previews/027/144/908/non_2x/delicious-hawaiian-burger-isolated-on-transparent-background-free-png.png' }} 
->
-</Image>  
+/>
+
 
       
           <ImageBackground  
@@ -46,30 +46,28 @@ const Food = ({ navigation }) => {
   style={{ height: 40, width: 40,tintColor:'#ff6600ff',marginLeft:10,marginTop:40}} 
   source={{ uri: 'https://static.thenounproject.com/png/4303174-200.png' }}
    
-></Image>
+/>
 <Text style={styles.text9}>Free Delivery</Text>
  <Image
   style={{ height: 26, width: 26,tintColor:'#ff6600ff',marginLeft:156,marginTop:-22}} 
   source={{ uri: 'https://cdn2.iconfinder.com/data/icons/education-3-25/48/136-512.png' }}
    
-></Image>
+/>
 <Text style={styles.text10}>20-30 mins</Text>
 <Image
   style={{ height: 26, width: 26,marginLeft:295,marginTop:-24,tintColor:'#ff6600ff'}} 
-  source={{ uri: 'https://images.vexels.com/media/users/3/134186/isolated/preview/dac3ece76e867219bd7205d04986b8c4-star-silhouette-12.png' }}
-   
-></Image>
+  source={{ uri: 'https://images.vexels.com/media/users/3/134186/isolated/preview/dac3ece76e867219bd7205d04986b8c4-star-silhouette-12.png' }}/>
 <Text style={styles.text11}>4.5</Text>
 <Text style={styles.text12}>A soft toasted bun filled with a juicy beef patty, topped with melted cheese, fresh lettuce, tomato, and a touch of creamy sauce — a perfect balance of flavor in every bite</Text>
 <Text style={styles.text15}>Toppings</Text>
-<View style={styles.box1}>      <Image  
-  style={{ height: 60, width: 60 ,marginLeft:14,marginTop:16}} 
+<View style={styles.box1}>     
+   <Image style={{ height: 60, width: 60 ,marginLeft:14,marginTop:16}} 
   source={{ uri: 'https://freesvg.org/img/Onion.png' }} 
-></Image></View>
+/></View>
 <View style={styles.box2}><Image  
   style={{ height: 60, width: 60 ,marginLeft:14,marginTop:16}} 
   source={{ uri: 'https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA3L3dvcmxkZmFjZXNsYWJfcGhvdG9fb2ZfYV9jaGVkZGFyX3RvcF92aWV3X2lzb2xhdGVkX29uX3doaXRlX2JhY184Y2Y2ZDFjZi1mNDY4LTQ3ZTAtYWRhMC1mYjY5ODEzN2E5ZWYucG5n.png' }} 
-></Image></View>
+/></View>
 <View style={styles.box3}></View>
 <View style={styles.box4}></View>
 

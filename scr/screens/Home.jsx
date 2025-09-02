@@ -16,7 +16,7 @@ const Home = () => {
       </Pressable>
         <Pressable style={styles.button} >
        <Image 
-        style={{ marginLeft:150,boxSizing:20, height: 150, width: 200  ,marginTop:40}} 
+        style={{ marginLeft:150, height: 150, width: 200  ,marginTop:40}} 
         source={{ uri: 'https://static.vecteezy.com/system/resources/previews/022/911/694/non_2x/cute-cartoon-burger-icon-free-png.png' }} 
       />
         <Text style={styles.text1}>SUMMER </Text><Text style={styles.text1two}>COMBO</Text>
