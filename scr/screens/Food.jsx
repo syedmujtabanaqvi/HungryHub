@@ -65,11 +65,17 @@ const Food = ({ navigation }) => {
   source={{ uri: 'https://freesvg.org/img/Onion.png' }} 
 /></View>
 <View style={styles.box2}><Image  
-  style={{ height: 60, width: 60 ,marginLeft:14,marginTop:16}} 
-  source={{ uri: 'https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA3L3dvcmxkZmFjZXNsYWJfcGhvdG9fb2ZfYV9jaGVkZGFyX3RvcF92aWV3X2lzb2xhdGVkX29uX3doaXRlX2JhY184Y2Y2ZDFjZi1mNDY4LTQ3ZTAtYWRhMC1mYjY5ODEzN2E5ZWYucG5n.png' }} 
+  style={{ height: 80, width: 80 ,marginLeft:0,marginTop:3  ,backgroundColor: "#fff",}} 
+  source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33Rx-yyRBW3bH5VpQqC3w8ACQFzykRKwF7eaxUePQrw8VvncjQIXsdLat6y3E-T6Yt3k&usqp=CAU' }} 
 /></View>
-<View style={styles.box3}></View>
-<View style={styles.box4}></View>
+<View style={styles.box4}> <Image  
+  style={{ height: 90, width: 90 ,marginLeft:2,marginTop:3  ,backgroundColor: "#fff",}} 
+  source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwqPgmBifRKupkRi0udYn6MQIjS60fH9vwVA&s' }} 
+/></View>
+<View style={styles.box3}> <Image  
+  style={{ height: 90, width: 90 ,marginLeft:2,marginTop:3  ,backgroundColor: "#fff",}} 
+  source={{ uri: 'https://pngimg.com/d/sauce_PNG110.png' }} 
+/></View>
 
     </ScrollView>
   );
@@ -196,17 +202,17 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     borderRadius:20,
-    backgroundColor: "#ddddddff",
-    elevation: 20,
+    backgroundColor: "#ffffffff",
+    elevation: 2,
   },
    box2: {
     marginTop:-90,
     marginLeft:10,
     width: 90,
     height: 90,
-    backgroundColor: "#ddddddff",
+    backgroundColor: "#ffffffff",
     borderRadius:20,
-    elevation: 20,
+    elevation: 2,
 
   },
    box3: {
@@ -215,8 +221,8 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     borderRadius:20,
-    backgroundColor: "#ddddddff",
-    elevation: 20,
+    backgroundColor: "#ffffffff",
+    elevation: 2,
   },
    box4: {
     marginTop:-90,
@@ -224,8 +230,8 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     borderRadius:20,
-    backgroundColor: "#ddddddff",
-    elevation: 20,
+    backgroundColor: "#ffffffff",
+    elevation: 2,
   },
 });
 
